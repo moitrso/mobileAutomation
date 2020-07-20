@@ -1,0 +1,16 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+logs/
+
+# Package Files #
+*.jar
+
+# Maven Surefire #
+target/
+
+# testNG Reports #
+test-output/
+
