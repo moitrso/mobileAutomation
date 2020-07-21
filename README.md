@@ -2,6 +2,8 @@
 
 ### Tech Stack: *Selenium, Appium, Log4j, Maven, TestNG*
 
+### Mobile App : Coinswitch Kuber ( available on Google play store)
+
 *Use "mvn clean test" from command line to trigger the tests in testng.xml*
 
 ### Prerequisites:
@@ -14,7 +16,7 @@
 
 **src/main/java** -> com.coinswitch.helper -> AppiumUtilities.java : Helper methods to handle identification, waiting of mobile elements and notifications
 
-**src/main/resources** -> config.properties : Capabilities to start appium driver session and other configurable properties like phone number, pin etc are stored here
+**src/main/resources** -> config.properties : Capabilities to start appium driver session and other configurable properties like phone number, pin etc are stored here. Please configure these properly before running the tests.
 
 **src/main/resources** -> log4j.xml : Log4j configuration is stored here
 
