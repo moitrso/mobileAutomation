@@ -4,11 +4,10 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import com.coinswitch.base.BaseTest;
 import com.coinswitch.pages.BTCPage;
 import com.coinswitch.pages.HomePage;
 import com.coinswitch.pages.LoginPage;
-
-import coinswitch.base.BaseTest;
 
 public class SmokeTest extends BaseTest {
 

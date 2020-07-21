@@ -3,9 +3,9 @@ package com.coinswitch.tests;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import com.coinswitch.pages.LoginPage;
 
-import coinswitch.base.BaseTest;
+import com.coinswitch.base.BaseTest;
+import com.coinswitch.pages.LoginPage;
 
 public class NegativeTests extends BaseTest {
 

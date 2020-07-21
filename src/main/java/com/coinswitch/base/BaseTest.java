@@ -1,4 +1,4 @@
-package coinswitch.base;
+package com.coinswitch.base;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
