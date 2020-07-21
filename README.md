@@ -24,6 +24,6 @@
 
 **src/test/java** -> com.coinswitch.tests : All test classes are placed here
 
-**Test Results** are generated in "test-output" folder as well as target/surefire-reports
+**Test Results** are generated in "target/surefire-reports" folder.
 
 **Logs** are generated in logs folder

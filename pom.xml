@@ -24,21 +24,9 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.uncommons</groupId>
-			<artifactId>reportng</artifactId>
-			<version>1.1.4</version>
-			<scope>test</scope>
-			<exclusions>
-				<exclusion>
-					<groupId>org.testng</groupId>
-					<artifactId>testng</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
-		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>6.8.5</version>
+			<version>7.1.0</version>
 		</dependency>
 		<dependency>
 			<groupId>log4j</groupId>
@@ -69,18 +57,6 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
-					<!-- <properties>
-						Setting ReportNG listeners
-						<property>
-							<name>usedefaultlisteners</name>
-							<value>false</value>
-						</property>
-						<property>
-							<name>listener</name>
-							<value>org.uncommons.reportng.HTMLReporter,org.uncommons.reportng.JUnitXMLReporter</value>
-						</property>
-					</properties>
-					<workingDirectory>target/</workingDirectory> -->
 				</configuration>
 			</plugin>
 		</plugins>
