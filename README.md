@@ -12,7 +12,7 @@
 
 ### Additional details:
 
-**src/main/java** -> com.coinswitch.base -> BaseTest.java : Base class for all test classes and responsinble for driver instantiation with relevant capabilities, app lauch, app close and appium session termination
+**src/main/java** -> com.coinswitch.base -> BaseTest.java : Base class for all test classes and responsible for driver instantiation with relevant capabilities, app lauch, app close and appium session termination
 
 **src/main/java** -> com.coinswitch.helper -> AppiumUtilities.java : Helper methods to handle identification, waiting of mobile elements and notifications
 
