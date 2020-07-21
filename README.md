@@ -2,7 +2,7 @@
 
 ### Tech Stack: *Selenium, Appium, Log4j, Maven, TestNG*
 
-*Mobile App* : Coinswitch Kuber (available on Google play store)
+**Mobile App Used** : Coinswitch Kuber (available on Google play store)
 
 *Use "mvn clean test" from command line to trigger the tests in testng.xml*
 
